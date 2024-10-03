@@ -3,7 +3,7 @@
   publish = "web-build"
 
 [context.production.environment]
-  NODE_VERSION = "16"
+  NODE_VERSION = "20.17.0"
   API_URL = "https://your-api-url.com"
 
 [[redirects]]
