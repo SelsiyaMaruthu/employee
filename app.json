@@ -10,8 +10,7 @@
     "splash": {
       "image": "./assets/images/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff",
-      "platforms": ["ios", "android", "web"]
+      "backgroundColor": "#ffffff"
     },
     "ios": {
       "supportsTablet": true
@@ -23,8 +22,11 @@
       }
     },
     "web": {
-      "bundler": "metro",
-      "output": "web-build",
+      "bundler": "webpack",  
+      "build": {
+        "publicPath": "./",  
+        "output": "web-build"  
+      },
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
