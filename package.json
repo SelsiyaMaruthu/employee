@@ -10,8 +10,8 @@
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "export-web": "expo export web-build",
-    "build": "expo build:web"
+    "export-web": "expo export:web web-build",
+    "build": " npx expo export:web"
     
   },
   "jest": {
