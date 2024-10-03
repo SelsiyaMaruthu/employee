@@ -1,0 +1,12 @@
+[build]
+  command = "expo build:web"
+  publish = "web-build"
+
+[context.production.environment]
+  NODE_VERSION = "16"
+  API_URL = "https://your-api-url.com"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
