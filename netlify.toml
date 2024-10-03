@@ -1,5 +1,5 @@
 [build]
-  command = "expo export --output web-build"
+  command = "expo export web-build"
   publish = "web-build"
 
 [context.production.environment]
