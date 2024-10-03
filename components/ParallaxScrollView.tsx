@@ -1,4 +1,4 @@
-import type { PropsWithChildren, ReactElement } from 'react';
+/*import type { PropsWithChildren, ReactElement } from 'react';
 import { StyleSheet, useColorScheme } from 'react-native';
 import Animated, {
   interpolate,
@@ -73,4 +73,4 @@ const styles = StyleSheet.create({
     gap: 16,
     overflow: 'hidden',
   },
-});
+});*/
